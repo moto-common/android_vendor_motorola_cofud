@@ -6,12 +6,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/cofud
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/cofud/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
     vendor/motorola/cofud/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/motorola/cofud/proprietary/vendor/etc/arcsoft_calibration_u_dc.bin:$(TARGET_COPY_OUT_VENDOR)/etc/arcsoft_calibration_u_dc.bin \
     vendor/motorola/cofud/proprietary/vendor/etc/dual_golden_depth.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dual_golden_depth.bin \
     vendor/motorola/cofud/proprietary/vendor/etc/dual_golden_wide.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dual_golden_wide.bin \
-    vendor/motorola/cofud/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc \
     vendor/motorola/cofud/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/motorola/cofud/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/motorola/cofud/proprietary/vendor/etc/libnfc-nci-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci-st.conf \
@@ -28,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cofud/proprietary/vendor/firmware/focaltech_ts_fw_visionox_ft.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_visionox_ft.bin \
     vendor/motorola/cofud/proprietary/vendor/firmware/fs1603.fsm:$(TARGET_COPY_OUT_VENDOR)/firmware/fs1603.fsm \
     vendor/motorola/cofud/proprietary/vendor/firmware/fs1603s.fsm:$(TARGET_COPY_OUT_VENDOR)/firmware/fs1603s.fsm \
+    vendor/motorola/cofud/proprietary/vendor/firmware/goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group.bin \
     vendor/motorola/cofud/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
     vendor/motorola/cofud/proprietary/vendor/firmware/lib3a.ccu:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu \
     vendor/motorola/cofud/proprietary/vendor/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_coeff.bin \
@@ -86,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cofud/proprietary/vendor/lib64/lib3a.n3d3a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.n3d3a.so \
     vendor/motorola/cofud/proprietary/vendor/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
     vendor/motorola/cofud/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
-    vendor/motorola/cofud/proprietary/vendor/lib64/libRbsFlow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRbsFlow.so \
     vendor/motorola/cofud/proprietary/vendor/lib64/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSQLiteModule_VER_ALL.so \
     vendor/motorola/cofud/proprietary/vendor/lib64/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX230PdafLibrary.so \
     vendor/motorola/cofud/proprietary/vendor/lib64/libSonyIMX230PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX230PdafLibraryWrapper.so \
