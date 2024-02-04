@@ -233,6 +233,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cofud/proprietary/vendor/lib64/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_ulog.so \
     vendor/motorola/cofud/proprietary/vendor/lib64/libmtkcam_vsync_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_vsync_util.so \
     vendor/motorola/cofud/proprietary/vendor/lib64/libmtkisp_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkisp_metadata.so \
+    vendor/motorola/cofud/proprietary/vendor/lib64/libsensorndkbridge-v32.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge-v32.so \
     vendor/motorola/cofud/proprietary/vendor/lib64/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so \
     vendor/motorola/cofud/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
     vendor/motorola/cofud/proprietary/vendor/lib64/mot_coful_gc02m1_tsp_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mot_coful_gc02m1_tsp_IdxMgr.so \
